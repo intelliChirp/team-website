@@ -64,26 +64,23 @@
 					<p>
 						<ul>
   							<li>
-  								A user friendly web application.
+  								Users will be able to upload audio files.
 							</li>
   							<li>
-  								The ability to upload sound files in a variety of ways, including a single file selection from a file directory
-  								as well as batch loading files.
+  								Users will be able to analyze all uploaded audio files.
 							</li>
   							<li>
-  								A machine learning algorithm that will automatically identify different acoustic components as well
-  								as allow for the removal of non-biological components.
+  								Users will be able to see the results of the analysis visualized.
   							</li>
    							<li>
-  								Results of the analyzed audio, including a summary of the components of the sound file,
-  								acoustic indices, and an export of the sound file with background noise masked out.
+  								Users will be able to receive the results of the analysis in a timely manner.
   							</li>							
   							<li>
-  								A standalone version of the software, for remote analysis on devices such as a Raspberry Pi.
+  								Users will be able to export all results.
   							</li>
 						</ul>
-						The development process will include weekly meetings with our clients. We will iteratively refine our requirements
-						in each of these meetings.
+						The development process included weekly meetings with our clients. We have iteratively refined our requirements
+						in each of these meetings. Under the Documents tab, there is a link to our requirements document.
 					</p>
 				</div>
 			</section>
@@ -114,23 +111,22 @@
 					</header>
 					<p> 
 						<b>Machine Learning Algorithm:</b>
-						To be determined.
+						Neural Network
 						<br/>
 						<b>Frameworks:</b>
-						To be determined.
+						TensorFlow with Keras
 						<br/>
-						<b>GUI:</b>
-						To be determined.
+						<b>Front-End Web Framework:</b>
+						React
+						<br/>
+						<b>Back-End Web Framework:</b>
+						Flask
 						<br/>
 						<b>Version Control:</b> 
 						We will use GitHub for version control. We will have master contain functional code, with each task in it's own branch. Commits need to have concise and descriptive titles.
 						<br/>
 						<b>Issue Tracking:</b>
-						Trello will be used for issue tracking.
-						<br/><br/>
-						We are currently establishing the rest of the technologies that we will use.. 
-						<br/>
-						Check back soon for an updated list!
+						GitHub Issues for issue tracking.
 					</p>
 				</div>
 			</section>
@@ -141,19 +137,13 @@
 						<h2>Progress</h2>
 					</header>
                     <p>
-                    	<b>Project Completion:</b> <progress value = "5" max = "100"></progress>
+                    	<b>Project Completion:</b> <progress value = "100" max = "100"></progress> 100%
                     	<br/>
-                    	<b>First Stage:</b> Creating Requirements <progress value = "22" max = "100"></progress>
+                    	<b>First Stage:</b> Creating Requirements <progress value = "100" max = "100"></progress> 100%
                     	<br/>
-                    	<b>Third Stage:</b> Implementation <progress value = "0" max = "100"></progress>
+                    	<b>Third Stage:</b> Implementation <progress value = "100" max = "100"></progress> 100%
                     	<br/>
-                    	<b>Final Stage:</b> Testing and Delivery <progress value = "0" max = "100"></progress>
-
-						<br/><br/>
-						For more details, please see 
-						<a href="https://trello.com/b/J2J9nzLB/machine-learning-classification-of-acoustic-data-components">
-						our Trello board
-						</a>
+                    	<b>Final Stage:</b> Testing and Delivery <progress value = "100" max = "100"></progress> 100%
 					</p>
 				</div>
 			</section>
@@ -163,28 +153,45 @@
 					<header class="major special">
 						<h2>Codebase</h2>
 					</header>
-					<p> Coming soon. </p>
+					<p> 
+						Link to our GitHub Organization here: <a href="https://github.com/intelliChirp/">IntelliChirp Organization</a><br/><br/>
+						Repositories in IntelliChirp Organization:<br/>
+						<b><a href="https://github.com/intelliChirp/SNAW" target="_blank">SNAW</a></b>: Web Application<br/>
+						<b><a href="https://github.com/intelliChirp/SNAW-Offline" target="_blank">SNAW-Offline</a></b>: Offline Standalone Application<br/>
+						<b><a href="https://github.com/intelliChirp/Soundscape-Neural-Network" target="_blank">Soundscape-Neural-Network</a></b>: Neural Networks
+					</p>
 				</div>
 			</section>
 
 			<section id="main">
-				<div class="inner">
-					<header class="major special">
-						<h2>Demo</h2>
-					</header>
-					<p> Coming soon. </p>
+				<div style="text-align: center;">
+					<h2>Demo</h2>
+					Here are a couple screenshots from our demo.
+					<h5> <br/>Uploading Audio for Analysis </h5>
+					<img src="images/homepage.png" style="width:80%">
+					<h5> <br/>Analyze the audio and give results </h5>
+					<img src="images/analyzing.png" style="width:80%">
+					<h5> <br/>Visualizing results from analysis (Spectrogram, Pie Charts, Acoustic Indices)</h5>
+					<img src="images/visualization1.png" style="width:80%">
+					<img src="images/visualization2.png" style="width:80%">
+					<img src="images/visualization3.png" style="width:80%">
+					<img src="images/visualization4.png" style="width:80%">
+					<img src="images/export1.png" style="width:80%">
+					<h5> <br/>Export classification as CSV file </h5>
+					<img src="images/export2.png" style="width:80%">
 				</div>
 			</section>
 
 
 		<!-- Footer -->
-			<section id="footer">
-				<div class="inner">
-					<div class="copyright">
-						&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>.
-					</div>
+		<section id="footer">
+			<div class="inner">
+				2020 NAU Capstone Team IntelliChrip: Steven Enriquez, Josh Kruse, Michael Ewers, Zhenyu Lei
+				<div class="copyright">
+					&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>.
 				</div>
-			</section>
+			</div>
+		</section>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
